@@ -1,0 +1,16 @@
+networkx>=3.0
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+python-louvain>=0.16      # community detection: Louvain (import as `community`)
+python-igraph>=0.11       # bắt buộc cho leidenalg
+leidenalg>=0.10           # community detection: Leiden
+torch>=2.1
+torch-geometric>=2.4
+matplotlib>=3.7
+seaborn>=0.12
+requests>=2.31
+PyGithub>=2.1             # crawl GitHub API cho RQ3
+tqdm>=4.66
+python-dotenv>=1.0        # đọc GITHUB_TOKEN từ file .env
